@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## What this is
+## What this is 1
 
 `kaspiInteg.bsl` is the object module of a 1C:Enterprise external processing (ВнешняяОбработка) named `CivilKaspiCards`, registered under the identifier `KASPI_CARD_INTEGRATION`. It runs inside the "Розница" (Retail) 1C configuration, edition 2.2.13.8, and syncs Civil's clothing catalog to the Kaspi.kz marketplace via Kaspi's product-import API, pulling missing product data (photos, fabric composition, descriptions, collar/attribute details) from Civil's own PIM system along the way.
 
