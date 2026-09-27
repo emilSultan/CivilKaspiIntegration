@@ -1,0 +1,2249 @@
+{
+  "success": true,
+  "requestId": "20260918112537736",
+  "message": "Messages.Success",
+  "messages": [],
+  "totalCount": 16,
+  "data": [
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-BEJ-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Beige",
+      "colorCode": "BEJ",
+      "colorDesc": "Beige",
+      "colorCatalogCode": "001",
+      "colorCatalogDescription": "Beige",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604645027",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/BEJ/8695604645027.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-BEJ-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Beige",
+      "colorCode": "BEJ",
+      "colorDesc": "Beige",
+      "colorCatalogCode": "001",
+      "colorCatalogDescription": "Beige",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604645034",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/BEJ/8695604645027.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-EKR-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Ecru",
+      "colorCode": "EKR",
+      "colorDesc": "Ecru",
+      "colorCatalogCode": "016",
+      "colorCatalogDescription": "Ecru",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604601023",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/EKR/8695604601023.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-EKR-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Ecru",
+      "colorCode": "EKR",
+      "colorDesc": "Ecru",
+      "colorCatalogCode": "016",
+      "colorCatalogDescription": "Ecru",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604601030",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/EKR/8695604601023.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-GKR-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Dusty Rose",
+      "colorCode": "GKR",
+      "colorDesc": "Dusty Rose",
+      "colorCatalogCode": "011",
+      "colorCatalogDescription": "Pink",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604663021",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/GKR/8695604663021.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-GKR-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Dusty Rose",
+      "colorCode": "GKR",
+      "colorDesc": "Dusty Rose",
+      "colorCatalogCode": "011",
+      "colorCatalogDescription": "Pink",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604663038",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/GKR/8695604663021.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-GRI-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Gray",
+      "colorCode": "GRI",
+      "colorDesc": "Gray",
+      "colorCatalogCode": "005",
+      "colorCatalogDescription": "Gray",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604608022",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/GRI/8695604608022.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-GRI-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Gray",
+      "colorCode": "GRI",
+      "colorDesc": "Gray",
+      "colorCatalogCode": "005",
+      "colorCatalogDescription": "Gray",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604608039",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/GRI/8695604608022.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-KAV-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Brown",
+      "colorCode": "KAV",
+      "colorDesc": "Brown",
+      "colorCatalogCode": "006",
+      "colorCatalogDescription": "Brown",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604618021",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/KAV/8695604618021.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-KAV-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Brown",
+      "colorCode": "KAV",
+      "colorDesc": "Brown",
+      "colorCatalogCode": "006",
+      "colorCatalogDescription": "Brown",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604618038",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/KAV/8695604618021.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-MNT-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Mint",
+      "colorCode": "MNT",
+      "colorDesc": "Mint",
+      "colorCatalogCode": "015",
+      "colorCatalogDescription": "Green",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604636025",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/MNT/8695604636025.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-MNT-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Mint",
+      "colorCode": "MNT",
+      "colorDesc": "Mint",
+      "colorCatalogCode": "015",
+      "colorCatalogDescription": "Green",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604636032",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/MNT/8695604636025.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-MVI-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Blue",
+      "colorCode": "MVI",
+      "colorDesc": "Blue",
+      "colorCatalogCode": "009",
+      "colorCatalogDescription": "Blue",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604603027",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/MVI/8695604603027.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-MVI-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Blue",
+      "colorCode": "MVI",
+      "colorDesc": "Blue",
+      "colorCatalogCode": "009",
+      "colorCatalogDescription": "Blue",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604603034",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/MVI/8695604603027.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-SRI-50",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Yellow",
+      "colorCode": "SRI",
+      "colorDesc": "Yellow",
+      "colorCatalogCode": "012",
+      "colorCatalogDescription": "Yellow",
+      "itemDim1Code": "50",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604604024",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.88,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/SRI/8695604604024.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    },
+    {
+      "productTypeCode": 1,
+      "langCode": "en",
+      "langDesc": "English",
+      "sku": "14043604626S1-SRI-56",
+      "productCode": "14043604626S1",
+      "productDesc": "6046 Civil 0-24 Months Baby Snapsuit Yellow",
+      "colorCode": "SRI",
+      "colorDesc": "Yellow",
+      "colorCatalogCode": "012",
+      "colorCatalogDescription": "Yellow",
+      "itemDim1Code": "56",
+      "itemDim1Desc": "",
+      "unitOfMeasureCode1": "AD",
+      "vatRate": "%16",
+      "barcode": "8695604604031",
+      "seasonCode": "SS",
+      "seasonDesc": "Seasonless",
+      "productHierarchyID": 15,
+      "productHierarchyLevel01": "Baby",
+      "productHierarchyLevel02": "Newborn",
+      "productHierarchyLevel03": "Knitted Top",
+      "itemColorFabricBlend": "Body:%100 Cotton",
+      "textileCareDescription": "",
+      "packedWeight": 0.199,
+      "itemWeight": 0.95,
+      "weightUnitOfMeasureCode": "KG",
+      "gtipCode": "611120900000",
+      "photoURL": "https://nebimv3resim.civil.com.tr:8090/14043604626S1/ColorPhotos/SRI/8695604604024.jpg",
+      "attributes": [
+        {
+          "attributeTypeCode": 1,
+          "attributeTypeDesc": "PRODUCT GROUP",
+          "attributeCode": "14",
+          "attributeDesc": "Snapsuit"
+        },
+        {
+          "attributeTypeCode": 3,
+          "attributeTypeDesc": "Model",
+          "attributeCode": "6046",
+          "attributeDesc": "6046"
+        },
+        {
+          "attributeTypeCode": 4,
+          "attributeTypeDesc": "FIRST SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 5,
+          "attributeTypeDesc": "AGE AND SIZE",
+          "attributeCode": "001",
+          "attributeDesc": "0-24 Months"
+        },
+        {
+          "attributeTypeCode": 6,
+          "attributeTypeDesc": "FABRIC AND MATERIAL",
+          "attributeCode": "076",
+          "attributeDesc": "Interlock"
+        },
+        {
+          "attributeTypeCode": 7,
+          "attributeTypeDesc": "SLEEVE DETAIL",
+          "attributeCode": "003",
+          "attributeDesc": "Long Sleeve"
+        },
+        {
+          "attributeTypeCode": 8,
+          "attributeTypeDesc": "SUPPLIER",
+          "attributeCode": "043",
+          "attributeDesc": "Minidamla-Lüks Tekin Tekstil"
+        },
+        {
+          "attributeTypeCode": 9,
+          "attributeTypeDesc": "NECKLINE TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Crossover Neckline"
+        },
+        {
+          "attributeTypeCode": 10,
+          "attributeTypeDesc": "PRINT/EMBROIDERY TYPE",
+          "attributeCode": "009",
+          "attributeDesc": "Patterned Fabric"
+        },
+        {
+          "attributeTypeCode": 11,
+          "attributeTypeDesc": "ORIGIN",
+          "attributeCode": "TR",
+          "attributeDesc": "Türkiye"
+        },
+        {
+          "attributeTypeCode": 12,
+          "attributeTypeDesc": "B2B",
+          "attributeCode": "E",
+          "attributeDesc": "Yes"
+        },
+        {
+          "attributeTypeCode": 13,
+          "attributeTypeDesc": "CATEGORY",
+          "attributeCode": "01",
+          "attributeDesc": "Textile"
+        },
+        {
+          "attributeTypeCode": 14,
+          "attributeTypeDesc": "NUMBER OF PIECES",
+          "attributeCode": "0001",
+          "attributeDesc": "1"
+        },
+        {
+          "attributeTypeCode": 18,
+          "attributeTypeDesc": "GENDER",
+          "attributeCode": "03",
+          "attributeDesc": "Unisex"
+        },
+        {
+          "attributeTypeCode": 22,
+          "attributeTypeDesc": "CURRENT SALE SEASON",
+          "attributeCode": "26S",
+          "attributeDesc": "2026 Summer"
+        },
+        {
+          "attributeTypeCode": 23,
+          "attributeTypeDesc": "COMMERCIAL PRODUCT",
+          "attributeCode": "013",
+          "attributeDesc": "Button-down blouses"
+        },
+        {
+          "attributeTypeCode": 24,
+          "attributeTypeDesc": "SHELF",
+          "attributeCode": "ORG",
+          "attributeDesc": "Organic"
+        },
+        {
+          "attributeTypeCode": 25,
+          "attributeTypeDesc": "PATTERN",
+          "attributeCode": "001",
+          "attributeDesc": "Standard"
+        }
+      ]
+    }
+  ]
+}

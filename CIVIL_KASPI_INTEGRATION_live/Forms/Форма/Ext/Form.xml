@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Button name="UPDATE_BO_STORE_STOCK" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.UPDATE_BO_STORE_STOCK</CommandName>
+			<ExtendedTooltip name="UPDATE_BO_STORE_STOCKРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="UPDATE_KASPI_STOCK" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.UPDATE_KASPI_STOCK</CommandName>
+			<ExtendedTooltip name="UPDATE_KASPI_STOCKРасширеннаяПодсказка" id="4"/>
+		</Button>
+		<Button name="get_delivery" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.get_delivery</CommandName>
+			<ExtendedTooltip name="get_deliveryРасширеннаяПодсказка" id="6"/>
+		</Button>
+		<Button name="PostMail" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.PostMail</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>POST MAIL</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="PostMailРасширеннаяПодсказка" id="8"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.CIVIL_KASPI_INTEGRATION</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="UPDATE_BO_STORE_STOCK" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>UPDATE b o STORE STOCK</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>UPDATE b o STORE STOCK</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>UPDATE_BO_STORE_STOCK</Action>
+		</Command>
+		<Command name="UPDATE_KASPI_STOCK" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>UPDATE KASPI STOCK</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>UPDATE KASPI STOCK</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>UPDATE_KASPI_STOCK</Action>
+		</Command>
+		<Command name="get_delivery" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get delivery</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get delivery</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>get_delivery</Action>
+		</Command>
+		<Command name="Команда1" id="4"/>
+		<Command name="PostMail" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Post mail</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Post mail</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>PostMail</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Button name="CreateCards" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.CreateCards</CommandName>
+			<ExtendedTooltip name="CreateCardsРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="CHECK_READEY_ITEMS" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.CHECK_READEY_ITEMS</CommandName>
+			<ExtendedTooltip name="CHECK_READEY_ITEMSРасширеннаяПодсказка" id="4"/>
+		</Button>
+		<Button name="get_photo" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.get_photo</CommandName>
+			<ExtendedTooltip name="get_photoРасширеннаяПодсказка" id="6"/>
+		</Button>
+		<Button name="get_composition" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.get_composition</CommandName>
+			<ExtendedTooltip name="get_compositionРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<Button name="GetCollar" id="9">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.GetCollar</CommandName>
+			<ExtendedTooltip name="GetCollarРасширеннаяПодсказка" id="10"/>
+		</Button>
+		<Button name="Report" id="11">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Report</CommandName>
+			<ExtendedTooltip name="ReportРасширеннаяПодсказка" id="12"/>
+		</Button>
+		<Button name="ОбновитьСписки" id="115">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОбновитьСписки</CommandName>
+			<ExtendedTooltip name="ОбновитьСпискиРасширеннаяПодсказка" id="116"/>
+		</Button>
+		<Button name="ADD_NEW_ITEMS" id="227">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ADD_NEW_ITEMS</CommandName>
+			<ExtendedTooltip name="ADD_NEW_ITEMSРасширеннаяПодсказка" id="228"/>
+		</Button>
+		<Button name="SYNC_BARCODES" id="229">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.SYNC_BARCODES</CommandName>
+			<ExtendedTooltip name="SYNC_BARCODESРасширеннаяПодсказка" id="230"/>
+		</Button>
+		<Pages name="Группа1" id="117">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список готовые</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="118"/>
+			<ChildItems>
+				<Page name="Группа2" id="119">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список готовые</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="120"/>
+					<ChildItems>
+						<Table name="СписокГотовые" id="121">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокГотовые</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокГотовыеКонтекстноеМеню" id="122"/>
+							<AutoCommandBar name="СписокГотовыеКоманднаяПанель" id="123"/>
+							<ExtendedTooltip name="СписокГотовыеРасширеннаяПодсказка" id="124"/>
+							<SearchStringAddition name="СписокГотовыеСтрокаПоиска" id="125">
+								<AdditionSource>
+									<Item>СписокГотовые</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовыеСтрокаПоискаКонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="СписокГотовыеСтрокаПоискаРасширеннаяПодсказка" id="127"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокГотовыеСостояниеПросмотра" id="128">
+								<AdditionSource>
+									<Item>СписокГотовые</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовыеСостояниеПросмотраКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="СписокГотовыеСостояниеПросмотраРасширеннаяПодсказка" id="130"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокГотовыеУправлениеПоиском" id="131">
+								<AdditionSource>
+									<Item>СписокГотовые</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокГотовыеУправлениеПоискомКонтекстноеМеню" id="132"/>
+								<ExtendedTooltip name="СписокГотовыеУправлениеПоискомРасширеннаяПодсказка" id="133"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СписокГотовыеНоменклатура" id="134">
+									<DataPath>СписокГотовые.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокГотовыеНоменклатураКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="СписокГотовыеНоменклатураРасширеннаяПодсказка" id="136"/>
+								</InputField>
+								<InputField name="СписокГотовыеНаименование" id="137">
+									<DataPath>СписокГотовые.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокГотовыеНаименованиеКонтекстноеМеню" id="138"/>
+									<ExtendedTooltip name="СписокГотовыеНаименованиеРасширеннаяПодсказка" id="139"/>
+								</InputField>
+								<InputField name="СписокГотовыеАртикул" id="140">
+									<DataPath>СписокГотовые.Артикул</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокГотовыеАртикулКонтекстноеМеню" id="141"/>
+									<ExtendedTooltip name="СписокГотовыеАртикулРасширеннаяПодсказка" id="142"/>
+								</InputField>
+								<InputField name="СписокГотовыеРазмер" id="143">
+									<DataPath>СписокГотовые.Размер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокГотовыеРазмерКонтекстноеМеню" id="144"/>
+									<ExtendedTooltip name="СписокГотовыеРазмерРасширеннаяПодсказка" id="145"/>
+								</InputField>
+								<InputField name="СписокГотовыеШтрихкод" id="146">
+									<DataPath>СписокГотовые.Штрихкод</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокГотовыеШтрихкодКонтекстноеМеню" id="147"/>
+									<ExtendedTooltip name="СписокГотовыеШтрихкодРасширеннаяПодсказка" id="148"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="149">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список остаток без карточки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="150"/>
+					<ChildItems>
+						<Table name="СписокОстатокБезКарточки" id="151">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокОстатокБезКарточки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокОстатокБезКарточкиКонтекстноеМеню" id="152"/>
+							<AutoCommandBar name="СписокОстатокБезКарточкиКоманднаяПанель" id="153"/>
+							<ExtendedTooltip name="СписокОстатокБезКарточкиРасширеннаяПодсказка" id="154"/>
+							<SearchStringAddition name="СписокОстатокБезКарточкиСтрокаПоиска" id="155">
+								<AdditionSource>
+									<Item>СписокОстатокБезКарточки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКарточкиСтрокаПоискаКонтекстноеМеню" id="156"/>
+								<ExtendedTooltip name="СписокОстатокБезКарточкиСтрокаПоискаРасширеннаяПодсказка" id="157"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокОстатокБезКарточкиСостояниеПросмотра" id="158">
+								<AdditionSource>
+									<Item>СписокОстатокБезКарточки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКарточкиСостояниеПросмотраКонтекстноеМеню" id="159"/>
+								<ExtendedTooltip name="СписокОстатокБезКарточкиСостояниеПросмотраРасширеннаяПодсказка" id="160"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокОстатокБезКарточкиУправлениеПоиском" id="161">
+								<AdditionSource>
+									<Item>СписокОстатокБезКарточки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКарточкиУправлениеПоискомКонтекстноеМеню" id="162"/>
+								<ExtendedTooltip name="СписокОстатокБезКарточкиУправлениеПоискомРасширеннаяПодсказка" id="163"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СписокОстатокБезКарточкиНоменклатура" id="164">
+									<DataPath>СписокОстатокБезКарточки.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиНоменклатураКонтекстноеМеню" id="165"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиНоменклатураРасширеннаяПодсказка" id="166"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКарточкиНаименование" id="167">
+									<DataPath>СписокОстатокБезКарточки.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиНаименованиеКонтекстноеМеню" id="168"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиНаименованиеРасширеннаяПодсказка" id="169"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКарточкиАртикул" id="170">
+									<DataPath>СписокОстатокБезКарточки.Артикул</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиАртикулКонтекстноеМеню" id="171"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиАртикулРасширеннаяПодсказка" id="172"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКарточкиРазмер" id="173">
+									<DataPath>СписокОстатокБезКарточки.Размер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиРазмерКонтекстноеМеню" id="174"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиРазмерРасширеннаяПодсказка" id="175"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКарточкиШтрихкод" id="176">
+									<DataPath>СписокОстатокБезКарточки.Штрихкод</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиШтрихкодКонтекстноеМеню" id="177"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиШтрихкодРасширеннаяПодсказка" id="178"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКарточкиКоличествоОстаток" id="179">
+									<DataPath>СписокОстатокБезКарточки.КоличествоОстаток</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКарточкиКоличествоОстатокКонтекстноеМеню" id="180"/>
+									<ExtendedTooltip name="СписокОстатокБезКарточкиКоличествоОстатокРасширеннаяПодсказка" id="181"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа4" id="182">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список остаток без категории</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="183"/>
+					<ChildItems>
+						<Table name="СписокОстатокБезКатегории" id="184">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>СписокОстатокБезКатегории</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокОстатокБезКатегорииКонтекстноеМеню" id="185"/>
+							<AutoCommandBar name="СписокОстатокБезКатегорииКоманднаяПанель" id="186"/>
+							<ExtendedTooltip name="СписокОстатокБезКатегорииРасширеннаяПодсказка" id="187"/>
+							<SearchStringAddition name="СписокОстатокБезКатегорииСтрокаПоиска" id="188">
+								<AdditionSource>
+									<Item>СписокОстатокБезКатегории</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКатегорииСтрокаПоискаКонтекстноеМеню" id="189"/>
+								<ExtendedTooltip name="СписокОстатокБезКатегорииСтрокаПоискаРасширеннаяПодсказка" id="190"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокОстатокБезКатегорииСостояниеПросмотра" id="191">
+								<AdditionSource>
+									<Item>СписокОстатокБезКатегории</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКатегорииСостояниеПросмотраКонтекстноеМеню" id="192"/>
+								<ExtendedTooltip name="СписокОстатокБезКатегорииСостояниеПросмотраРасширеннаяПодсказка" id="193"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокОстатокБезКатегорииУправлениеПоиском" id="194">
+								<AdditionSource>
+									<Item>СписокОстатокБезКатегории</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокОстатокБезКатегорииУправлениеПоискомКонтекстноеМеню" id="195"/>
+								<ExtendedTooltip name="СписокОстатокБезКатегорииУправлениеПоискомРасширеннаяПодсказка" id="196"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СписокОстатокБезКатегорииНоменклатура" id="197">
+									<DataPath>СписокОстатокБезКатегории.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииНоменклатураКонтекстноеМеню" id="198"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииНоменклатураРасширеннаяПодсказка" id="199"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииНаименование" id="200">
+									<DataPath>СписокОстатокБезКатегории.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииНаименованиеКонтекстноеМеню" id="201"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииНаименованиеРасширеннаяПодсказка" id="202"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииАртикул" id="203">
+									<DataPath>СписокОстатокБезКатегории.Артикул</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииАртикулКонтекстноеМеню" id="204"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииАртикулРасширеннаяПодсказка" id="205"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииMopDivision" id="206">
+									<DataPath>СписокОстатокБезКатегории.MopDivision</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииMopDivisionКонтекстноеМеню" id="207"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииMopDivisionРасширеннаяПодсказка" id="208"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииMopDepartment" id="209">
+									<DataPath>СписокОстатокБезКатегории.MopDepartment</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииMopDepartmentКонтекстноеМеню" id="210"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииMopDepartmentРасширеннаяПодсказка" id="211"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииMopSubDepartment" id="212">
+									<DataPath>СписокОстатокБезКатегории.MopSubDepartment</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииMopSubDepartmentКонтекстноеМеню" id="213"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииMopSubDepartmentРасширеннаяПодсказка" id="214"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииMopCategory" id="215">
+									<DataPath>СписокОстатокБезКатегории.MopCategory</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииMopCategoryКонтекстноеМеню" id="216"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииMopCategoryРасширеннаяПодсказка" id="217"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииMopClass" id="218">
+									<DataPath>СписокОстатокБезКатегории.MopClass</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииMopClassКонтекстноеМеню" id="219"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииMopClassРасширеннаяПодсказка" id="220"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииПол" id="221">
+									<DataPath>СписокОстатокБезКатегории.Пол</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииПолКонтекстноеМеню" id="222"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииПолРасширеннаяПодсказка" id="223"/>
+								</InputField>
+								<InputField name="СписокОстатокБезКатегорииКоличествоОстаток" id="224">
+									<DataPath>СписокОстатокБезКатегории.КоличествоОстаток</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СписокОстатокБезКатегорииКоличествоОстатокКонтекстноеМеню" id="225"/>
+									<ExtendedTooltip name="СписокОстатокБезКатегорииКоличествоОстатокРасширеннаяПодсказка" id="226"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.CivilKaspiCards</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СписокГотовые" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список готовые</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Артикул" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Размер" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Штрихкод" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>13</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокОстатокБезКарточки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список остаток без карточки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Артикул" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Размер" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Штрихкод" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>13</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоОстаток" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество остаток</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокОстатокБезКатегории" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список остаток без категории</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Наименование" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Артикул" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Артикул</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="MopDivision" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mop division</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MopDivision</v8:Type>
+					</Type>
+				</Column>
+				<Column name="MopDepartment" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mop department</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MopDepartment</v8:Type>
+					</Type>
+				</Column>
+				<Column name="MopSubDepartment" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mop sub department</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MopSubDepartment</v8:Type>
+					</Type>
+				</Column>
+				<Column name="MopCategory" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mop category</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MopCategory</v8:Type>
+					</Type>
+				</Column>
+				<Column name="MopClass" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mop class</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MopClass</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Пол" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пол</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НоменклатурныйПол</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КоличествоОстаток" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество остаток</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="CreateCards" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Create cards</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Create cards</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>CreateCards</Action>
+		</Command>
+		<Command name="CHECK_READEY_ITEMS" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>CHECK READEY ITEMS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>CHECK READEY ITEMS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>CHECK_READEY_ITEMS</Action>
+		</Command>
+		<Command name="get_photo" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get photo</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get photo</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>get_photo</Action>
+		</Command>
+		<Command name="get_composition" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get composition</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get composition</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>get_composition</Action>
+		</Command>
+		<Command name="GetCollar" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get collar</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Get collar</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GetCollar</Action>
+		</Command>
+		<Command name="Report" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Report</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Report</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Report</Action>
+		</Command>
+		<Command name="ADD_NEW_ITEMS" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ADD NEW ITEMS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ADD NEW ITEMS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ADD_NEW_ITEMS</Action>
+		</Command>
+		<Command name="SYNC_BARCODES" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SYNC BARCODES</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SYNC BARCODES</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SYNC_BARCODES</Action>
+		</Command>
+		<Command name="ОбновитьСписки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить списки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить списки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьСписки</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Дата" id="1">
+			<DataPath>Дата</DataPath>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Button name="ИсправитьРеализации" id="4">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ИсправитьРеализации</CommandName>
+			<ExtendedTooltip name="ИсправитьРеализацииРасширеннаяПодсказка" id="5"/>
+		</Button>
+		<Button name="ИсправитьВозвраты" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ИсправитьВозвраты</CommandName>
+			<ExtendedTooltip name="ИсправитьВозвратыРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<Button name="СравнитьСуммы" id="17">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СравнитьСуммы</CommandName>
+			<ExtendedTooltip name="СравнитьСуммыРасширеннаяПодсказка" id="18"/>
+		</Button>
+		<SpreadSheetDocumentField name="ТабДок" id="6">
+			<DataPath>ТабДок</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ContextMenu name="ТабДокКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="8"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокРезультатРеализаций" id="9">
+			<DataPath>ТабДокРезультатРеализаций</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокРезультатРеализацийКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ТабДокРезультатРеализацийРасширеннаяПодсказка" id="11"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокРезультатВозвратов" id="14">
+			<DataPath>ТабДокРезультатВозвратов</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокРезультатВозвратовКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="ТабДокРезультатВозвратовРасширеннаяПодсказка" id="16"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокСравнение" id="19">
+			<DataPath>ТабДокСравнение</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ContextMenu name="ТабДокСравнениеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТабДокСравнениеРасширеннаяПодсказка" id="21"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокСравнениеРезультат" id="22">
+			<DataPath>ТабДокСравнениеРезультат</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокСравнениеРезультатКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ТабДокСравнениеРезультатРасширеннаяПодсказка" id="24"/>
+		</SpreadSheetDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ИсправитьРеализации</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Дата" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номера заказов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Order numbers</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокРезультатРеализаций" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат обработки реализаций</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sales processing result</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокРезультатВозвратов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат обработки возвратов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Returns processing result</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокСравнение" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер заказа / сумма для сравнения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Order number / amount to compare</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокСравнениеРезультат" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат сравнения (только расхождения)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comparison result (differences only)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ИсправитьРеализации" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить реализации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix sales documents</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести или создать реализации по номерам заказов из ТабДок на дату, указанную в реквизите Дата</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move or create sales documents for the order numbers in ТабДок, dated as the Дата attribute</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсправитьРеализации</Action>
+		</Command>
+		<Command name="ИсправитьВозвраты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исправить возвраты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fix return documents</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести или создать возвраты товаров от покупателя по номерам заказов из ТабДок на дату, указанную в реквизите Дата</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Move or create customer return documents for the order numbers in ТабДок, dated as the Дата attribute</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИсправитьВозвраты</Action>
+		</Command>
+		<Command name="СравнитьСуммы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сравнить суммы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Compare amounts</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сравнить суммы из ТабДокСравнение (номер заказа, сумма) с базой за месяц реквизита Дата: сумма больше нуля - ищет в Реализации товаров, меньше нуля - в Возврате товаров от покупателя. Выводит только заказы с расхождением.</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Compare amounts from ТабДокСравнение (order number, amount) against the database for the month of the Дата attribute: positive amount looks in sales documents, negative - in customer returns. Shows only orders with a difference.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СравнитьСуммы</Action>
+		</Command>
+	</Commands>
+</Form>

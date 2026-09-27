@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Группа2" id="32">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<Page name="Группа1" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Решение проблемных товаров</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<Pages name="ОсновнаяГруппа" id="4">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основная группа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основная группа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Width>36</Width>
+							<Height>14</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<PagesRepresentation>TabsOnTop</PagesRepresentation>
+							<ExtendedTooltip name="ОсновнаяГруппаРасширеннаяПодсказка" id="5"/>
+							<ChildItems>
+								<Page name="НеизвестныеТовары" id="6">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Неизвестные товары</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Неизвестные товары</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>35</Width>
+									<ExtendedTooltip name="НеизвестныеТоварыРасширеннаяПодсказка" id="7"/>
+									<ChildItems>
+										<InputField name="Штрихкод" id="1">
+											<DataPath>Штрихкод</DataPath>
+											<ContextMenu name="ШтрихкодКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="ШтрихкодРасширеннаяПодсказка" id="3"/>
+										</InputField>
+										<Button name="Проверить" id="8">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.Проверить</CommandName>
+											<ExtendedTooltip name="ПроверитьРасширеннаяПодсказка" id="9"/>
+										</Button>
+										<Button name="ПолучитьТовар" id="28">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПолучитьТовар</CommandName>
+											<ExtendedTooltip name="ПолучитьТоварРасширеннаяПодсказка" id="29"/>
+										</Button>
+									</ChildItems>
+								</Page>
+								<Page name="Цены" id="10">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Цены</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Цены</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>35</Width>
+									<ExtendedTooltip name="ЦеныРасширеннаяПодсказка" id="11"/>
+									<ChildItems>
+										<InputField name="Номенклатура" id="12">
+											<DataPath>Номенклатура</DataPath>
+											<ContextMenu name="НоменклатураКонтекстноеМеню" id="13"/>
+											<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="14"/>
+											<Events>
+												<Event name="OnChange">НоменклатураПриИзменении</Event>
+												<Event name="StartChoice">НоменклатураНачалоВыбора</Event>
+											</Events>
+										</InputField>
+										<InputField name="Штрихкод1" id="15">
+											<DataPath>Штрихкод</DataPath>
+											<ContextMenu name="Штрихкод1КонтекстноеМеню" id="16"/>
+											<ExtendedTooltip name="Штрихкод1РасширеннаяПодсказка" id="17"/>
+										</InputField>
+										<InputField name="ВидЦены" id="23">
+											<DataPath>ВидЦены</DataPath>
+											<ContextMenu name="ВидЦеныКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="ВидЦеныРасширеннаяПодсказка" id="25"/>
+										</InputField>
+										<Button name="ПроверитьЦену" id="18">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПроверитьЦену</CommandName>
+											<ExtendedTooltip name="ПроверитьЦенуРасширеннаяПодсказка" id="19"/>
+										</Button>
+										<Button name="ПолучитьЦену" id="30">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.ПолучитьЦену</CommandName>
+											<ExtendedTooltip name="ПолучитьЦенуРасширеннаяПодсказка" id="31"/>
+										</Button>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+						<InputField name="Json" id="20">
+							<DataPath>Json</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>35</Width>
+							<Height>12</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="JsonКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="JsonРасширеннаяПодсказка" id="22"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интеграция</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<Button name="GET_ITEM" id="36">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.GET_ITEM</CommandName>
+							<ExtendedTooltip name="GET_ITEMРасширеннаяПодсказка" id="37"/>
+						</Button>
+						<Button name="GET_SHIPMENT" id="42">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.GET_SHIPMENT</CommandName>
+							<ExtendedTooltip name="GET_SHIPMENTРасширеннаяПодсказка" id="43"/>
+						</Button>
+						<Button name="SEND_NATIONAL_CATALOG" id="46">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_NATIONAL_CATALOG</CommandName>
+							<ExtendedTooltip name="SEND_NATIONAL_CATALOGРасширеннаяПодсказка" id="47"/>
+						</Button>
+						<Button name="SEND_SALES" id="50">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_SALES</CommandName>
+							<ExtendedTooltip name="SEND_SALESРасширеннаяПодсказка" id="51"/>
+						</Button>
+						<Button name="GET_PRICE" id="38">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.GET_PRICE</CommandName>
+							<ExtendedTooltip name="GET_PRICEРасширеннаяПодсказка" id="39"/>
+						</Button>
+						<Button name="SEND_INT_TRANSFERS" id="44">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_INT_TRANSFERS</CommandName>
+							<ExtendedTooltip name="SEND_INT_TRANSFERSРасширеннаяПодсказка" id="45"/>
+						</Button>
+						<Button name="SEND_RECEIPT" id="48">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_RECEIPT</CommandName>
+							<ExtendedTooltip name="SEND_RECEIPTРасширеннаяПодсказка" id="49"/>
+						</Button>
+						<Button name="SEND_REALISATION" id="52">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_REALISATION</CommandName>
+							<ExtendedTooltip name="SEND_REALISATIONРасширеннаяПодсказка" id="53"/>
+						</Button>
+						<Button name="SEND_RETURN" id="54">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.SEND_RETURN</CommandName>
+							<ExtendedTooltip name="SEND_RETURNРасширеннаяПодсказка" id="55"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.RETAIL_CIVIL_INTEGRATION</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Токен" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Токен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Штрихкод" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрихкод</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:Characteristic.ТипыШтрихкодов</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="Модель" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ShipmentNumber" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Shipment number</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>30</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="InvoiceNumber" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Invoice number</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Страна" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страна</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Страны</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ShipmentHeaderID" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Shipment header ID</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Табдок" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табдок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Поступления" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступления</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ПоступлениеТоваров</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВидЦены" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид цены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КодВидЦены" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код вид цены</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерПрайсЛиста" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер прайс листа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Номенклатура" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Json" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Json</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="GET_PRICE" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET PRICE</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET PRICE</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GET_PRICE</Action>
+		</Command>
+		<Command name="GET_LOTS" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET LOTS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET LOTS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GET_LOTS</Action>
+		</Command>
+		<Command name="GET_ITEM" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET ITEM</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET ITEM</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GET_ITEM</Action>
+		</Command>
+		<Command name="SEND_SALES" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND SALES</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND SALES</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_SALES</Action>
+		</Command>
+		<Command name="GET_SHIPMENT" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET SHIPMENT</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET SHIPMENT</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GET_SHIPMENT</Action>
+		</Command>
+		<Command name="тест" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>тест</Action>
+		</Command>
+		<Command name="SEND_RECEIPT" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND RECEIPT</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND RECEIPT</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_RECEIPT</Action>
+		</Command>
+		<Command name="SEND_INT_TRANSFERS" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND INT TRANSFERS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND INT TRANSFERS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_INT_TRANSFERS</Action>
+		</Command>
+		<Command name="SEND_NATIONAL_CATALOG" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND NATIONAL CATALOG</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND NATIONAL CATALOG</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_NATIONAL_CATALOG</Action>
+		</Command>
+		<Command name="Проверить" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Проверить</Action>
+		</Command>
+		<Command name="ПроверитьЦену" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить цену</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить цену</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьЦену</Action>
+		</Command>
+		<Command name="ПолучитьТовар" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить товар</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить товар</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьТовар</Action>
+		</Command>
+		<Command name="ПолучитьЦену" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цену</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цену</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьЦену</Action>
+		</Command>
+		<Command name="SEND_REALISATION" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND REALISATION</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND REALISATION</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_REALISATION</Action>
+		</Command>
+		<Command name="SEND_RETURN" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND RETURN</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SEND RETURN</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>SEND_RETURN</Action>
+		</Command>
+	</Commands>
+</Form>

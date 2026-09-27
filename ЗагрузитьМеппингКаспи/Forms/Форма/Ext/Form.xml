@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Аттрибут" id="8">
+			<DataPath>Аттрибут</DataPath>
+			<ContextMenu name="АттрибутКонтекстноеМеню" id="9"/>
+			<ExtendedTooltip name="АттрибутРасширеннаяПодсказка" id="10"/>
+		</InputField>
+		<Button name="ЗагрузитКатегории" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитКатегории</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать справочник мп_Категории</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create мп_Категории catalog</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗагрузитКатегорииРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="ЗагрузитьМеппинг" id="6">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьМеппинг</CommandName>
+			<ExtendedTooltip name="ЗагрузитьМеппингРасширеннаяПодсказка" id="7"/>
+		</Button>
+		<Button name="УдалитьСпр_ма_Категории" id="11">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УдалитьСпр_ма_Категории</CommandName>
+			<ExtendedTooltip name="УдалитьСпр_ма_КатегорииРасширеннаяПодсказка" id="12"/>
+		</Button>
+		<Button name="ПолучитьРазмеры" id="16">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьРазмеры</CommandName>
+			<ExtendedTooltip name="ПолучитьРазмерыРасширеннаяПодсказка" id="17"/>
+		</Button>
+		<Button name="ПолучитьЦвета" id="18">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьЦвета</CommandName>
+			<ExtendedTooltip name="ПолучитьЦветаРасширеннаяПодсказка" id="19"/>
+		</Button>
+		<Button name="ЗаполнитьИнтернетМагазинРазмеры" id="23">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗаполнитьИнтернетМагазинРазмеры</CommandName>
+			<ExtendedTooltip name="ЗаполнитьИнтернетМагазинРазмерыРасширеннаяПодсказка" id="24"/>
+		</Button>
+		<Button name="ПолучитьРост" id="25">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьРост</CommandName>
+			<ExtendedTooltip name="ПолучитьРостРасширеннаяПодсказка" id="26"/>
+		</Button>
+		<Button name="ЗагрузитьChildHeightAIReference" id="33">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьChildHeightAIReference</CommandName>
+			<ExtendedTooltip name="ЗагрузитьChildHeightAIReferenceРасширеннаяПодсказка" id="34"/>
+		</Button>
+		<SpreadSheetDocumentField name="ТабДок" id="3">
+			<DataPath>ТабДок</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ContextMenu name="ТабДокКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="5"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокРазмеры" id="13">
+			<DataPath>ТабДокРазмеры</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокРазмерыКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТабДокРазмерыРасширеннаяПодсказка" id="15"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокЦвета" id="20">
+			<DataPath>ТабДокЦвета</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокЦветаКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="ТабДокЦветаРасширеннаяПодсказка" id="22"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокРост" id="27">
+			<DataPath>ТабДокРост</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>false</Edit>
+			<ContextMenu name="ТабДокРостКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ТабДокРостРасширеннаяПодсказка" id="29"/>
+		</SpreadSheetDocumentField>
+		<SpreadSheetDocumentField name="ТабДокРостAIReference" id="30">
+			<DataPath>ТабДокРостAIReference</DataPath>
+			<ShowGrid>true</ShowGrid>
+			<ShowHeaders>true</ShowHeaders>
+			<Edit>true</Edit>
+			<ContextMenu name="ТабДокРостAIReferenceКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="ТабДокРостAIReferenceРасширеннаяПодсказка" id="32"/>
+		</SpreadSheetDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ЗагрузитьМеппингКаспи</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТабДок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таб док</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Spreadsheet document</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Аттрибут" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аттрибут</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attribute</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.мп_АттрибутыКарточек</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокРазмеры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размеры категорий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Category sizes</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокЦвета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цвета категорий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Category colours</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокРост" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рост категорий (Child body height)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Category child body height</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТабДокРостAIReference" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рост из ChildHeight_AI_Reference.md (вставить сюда)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Height from ChildHeight_AI_Reference.md (paste here)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитКатегории" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузит категории</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load categories</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузит категории</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load categories</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитКатегории</Action>
+		</Command>
+		<Command name="ЗагрузитьМеппинг" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить меппинг</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load mapping</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить меппинг</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load mapping</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьМеппинг</Action>
+		</Command>
+		<Command name="УдалитьСпр_ма_Категории" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить спр ма категории</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete мп_Категории catalog</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить спр ма категории</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delete мп_Категории catalog</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьСпр_ма_Категории</Action>
+		</Command>
+		<Command name="ПолучитьРазмеры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить размеры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get sizes</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить размеры категорий (Clothes*Size) из Kaspi</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get category sizes (Clothes*Size) from Kaspi</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьРазмеры</Action>
+		</Command>
+		<Command name="ПолучитьЦвета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цвета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get colours</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить цвета категорий (Clothes*Colour) из Kaspi</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get category colours (Clothes*Colour) from Kaspi</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьЦвета</Action>
+		</Command>
+		<Command name="ЗаполнитьИнтернетМагазинРазмеры" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить ИнтернетМагазинРазмеры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill ИнтернетМагазинРазмеры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать регистр ИнтернетМагазинРазмеры по данным из ТабДок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Write register ИнтернетМагазинРазмеры from ТабДок data</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьИнтернетМагазинРазмеры</Action>
+		</Command>
+		<Command name="ПолучитьРост" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить рост</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get child body height</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить значения реквизита Child body height для категорий из Kaspi</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get Child body height attribute values for categories from Kaspi</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьРост</Action>
+		</Command>
+		<Command name="ЗагрузитьChildHeightAIReference" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить рост из ChildHeight_AI_Reference.md</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load height from ChildHeight_AI_Reference.md</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать регистр ИнтернетМагазинРазмеры (ресурс РазмерПродавца) по данным, вставленным в ТабДокРостAIReference из ChildHeight_AI_Reference.md</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Write register ИнтернетМагазинРазмеры (resource РазмерПродавца) from data pasted into ТабДокРостAIReference from ChildHeight_AI_Reference.md</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьChildHeightAIReference</Action>
+		</Command>
+	</Commands>
+</Form>
