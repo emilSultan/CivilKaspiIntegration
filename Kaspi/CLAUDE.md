@@ -21,7 +21,7 @@ There is none, locally. This code has no compiler, linter, or test runner outsid
 | Command | Purpose |
 |---|---|
 | `GET_DESCRIPTION`, `GET_COMPOSITION`, `GET_COLLAR`, `GET_PHOTO` | Pull missing product data from Civil's PIM gateway (`gateway.civil.com.tr:8080`) and cache it into 1C info registers (`мп_АтрибутыНоменклатур`, `мп_СоставНоменклатур`, `СоответствиеРеквизитовИМ`). |
-| `ADD_NEW_ITEMS` | Seeds `РегистрСведений.ИнтернетМагазинКарточки` with (Номенклатура, Характеристика) rows for in-stock items not yet queued for Kaspi. |
+| `ADD_NEW_ITEMS` | Seeds `РегистрСведений.ИнтернетМагазинКарточки` with (Номенклатура, Характеристика) rows for items that are in stock (`ТоварыНаСкладах.Остатки` > 0) **or** appear in a posted `Документ.ПоступлениеТоваров.Товары` dated within the last 30 days (`&ДатаНачалаПоступлений` = start of today − 30 days) (`ОБЪЕДИНИТЬ`, same MopDivision/MopCategory filters), and are not yet queued for Kaspi. |
 | `CHECK_READEY_ITEMS` | Flags queued rows `ГотовКСоздании = Истина` once all required fields are present (size, gender, color, season, title, composition, category, ≥1 photo). |
 | `CARD_CREAT` | Builds Kaspi product-import JSON for ready items and `POST`s them in batches of 10 to `https://kaspi.kz/shop/api/products/import`. |
 | `REPORT` | Emails an Excel report of items still missing data, broken down by which field is missing. |
